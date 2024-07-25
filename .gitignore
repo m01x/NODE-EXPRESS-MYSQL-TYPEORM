@@ -1,0 +1,28 @@
+# Ignorar archivos y directorios de dependencias
+node_modules/
+vendor/
+
+# Ignorar archivos de compilación y generación
+dist/
+build/
+*.log
+
+# Ignorar archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos específicos del entorno de desarrollo
+*.env
+*.local
+
+# Ignorar archivos de IDEs y editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignorar archivos de sistema de operación específicos
+*.swp
+*.swo
